@@ -1,0 +1,101 @@
+@media screen and (max-width :767px){
+    .start{
+        background-color: black;
+        border: 0;
+        display: block;
+    }
+    .quadrado {
+         box-shadow: 1px 1px 10px rgb(14, 4, 51), -0px -2px 10px rgba(198, 102, 242, 0.27);
+        }
+    .menu img {
+        left: 45px;
+        position: relative;
+        }
+    #chat {
+            position: relative;
+            top: 25px;
+            }
+    .menu{
+        display: block;
+    }
+    
+    #img img{
+        display: none;
+    }
+    .aprese {
+       
+        height: 661px;
+        }
+    .conteiner #texto {
+        width: 100%;
+      
+        padding: 2px;
+    }
+    .conteiner #h2{
+        font-size: 18px;
+        text-align: center;
+    }
+    .conteiner hr{
+        display: none;
+    }
+    #p img{
+        width: 20px;
+
+    }
+    
+    #svg{
+        display: none;
+    }
+    
+    .quadrado {
+            
+        width: 290px;
+        }
+    #block1,#block2{
+        display: none;
+    }
+            
+    .card {
+                
+        width: 139px;
+        height: 393px;
+        margin: 0 10px;
+        }
+     .card h6{
+        display: none;
+    }
+    .fim {
+        height: 0;
+        }
+        #chatbox {
+        display: none;
+        }
+    
+
+    footer{
+        display: block;
+    }
+    footer #termos{
+        width: 100%;
+        padding: 2px;
+        text-align: justify;
+        margin: 0;
+    }
+    footer #sobre{
+        display: none;
+       
+    }
+    footer h6{
+        width: 100%;
+    }
+    
+    #menu{
+        width: 100%;
+        padding: 2px;
+    }
+    #menu li{
+        display: none;
+       
+    }
+    
+}

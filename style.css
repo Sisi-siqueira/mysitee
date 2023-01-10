@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300&family=Poppins:wght@200;500;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;}
+
+hr{
+    color: #8434cf;
+}
+
+body{
+    background-color: #000000;
+    color: aliceblue;
+}
+.aprese {
+    
+    height: 913px;
+    background-color: #ffffff;
+}
+.conteiner{
+    display: flex;
+    color: #000;
+}
+.conteiner #texto{
+    text-align: right;
+    width: 50%;
+}
+.conteiner h2{
+    margin-bottom: 0px;
+}
+.conteiner #texto hr{
+    position: relative;
+    width: 40%;
+    left: 150px;
+    margin-top: 0px;
+}
+/* lua e sol*/
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Ocultar caixa de seleção HTML padrão*/
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* o slider */
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: #522ba7;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+
+
+.start{
+    background-color: rgb(61, 0, 117);
+    height: 300px;
+    padding:5px 10px;
+    border-radius: 131px 348px;
+    display: flex;
+    justify-content: space-around ;
+    align-items:  center;
+    margin-bottom: 50px;
+    border: 3px solid white;
+}
+.menu{
+    display: flex;
+
+}
+.menu img{
+    height: 240px;
+}
+.menu #chat{
+    background-color: red;
+}
+.menu ul{
+    display: flex;
+    height: 30px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-shadow: 6px 3px 17px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul:hover{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+.menu ul i:hover{
+
+    background-color: rgb(88, 0, 105);
+  
+    height: 90%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    list-style: none;
+   
+}
+i{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    list-style: none;
+}
+
+
+.medium{
+    display: flex;
+    height: 500px;
+    
+    padding: 5px;
+}
+.card{
+    width: 200px;
+    height: 395px;
+    background-color: rgb(0, 1, 54);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 19px;
+    box-shadow: 0px -2px 18px 2px hsla(253, 100%, 48%, 0.438);
+}
+#block02 {
+    margin: 10px 0 0 0px;
+}
+#block01{
+    margin: 28px 0 0 0px;
+}
+#block1:hover{
+    box-shadow: 0px -2px 18px 2px rgb(176, 19, 19);
+    background-color: rgb(116, 0, 0);
+}
+#block2:hover{
+    box-shadow: 0px -2px 18px 2px rgb(176, 19, 19);
+    background-color: rgb(116, 0, 0);
+}
+.card:hover{
+    box-shadow: 0px -2px 18px 2px rgb(19, 176, 137);
+    background-color: rgb(0, 109, 27);
+}
+
+
+.card p{
+    text-align: justify;
+    font-size: 12px;
+}
+.card h3{
+    text-align: right;
+}
+.card img{
+    width: 150px;
+    margin: 0 10%;
+}
+.card button{
+    width: 100px;
+    height: 30px;
+    background-color: #8434cf;
+    color:rgb(176, 147, 255);
+    border-radius: 2px;
+     cursor: pointer;
+}
+.card #block01,#block02{
+    cursor: not-allowed;
+  
+}
+.quadrado{
+    color: #fff;
+  padding: 20px;
+ height: 200px;
+ border-radius: 30px;
+ width: 346px;
+background: #914ebf;
+box-shadow: 15px 15px 30px rgb(14, 4, 51), -15px -15px 30px rgba(198, 102, 242, 0.27);
+}
+.quadrado #red{
+    color: rgb(255, 102, 102);
+}
+.quadrado #yellow{
+    color:rgb(255, 255, 100);
+}
+.quadrado #green{
+    color: rgb(105, 255, 105);
+}
+.quadrado:hover{
+    background: #924ebfb2;
+    color: rgba(255, 255, 255, 0.692);
+    
+}
+.quadrado h5{
+   
+    margin: 3px ;
+}
+.quadrado #mais ,#mais1pouco ,#voltar{
+    display: none;
+}
+
+
+
+.start button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.fim{
+  
+    height: 500px;
+
+}
+.fim .card {
+    position: relative;
+    left: 35%;
+    top: 15%;
+    width: 290px;
+    height: 354px;
+    background: rgb(208, 187, 255);
+    box-shadow: rgb(255, 255, 255) 0px 2px 4px, rgb(36, 0, 166) 0px 7px 13px -3px, rgb(160, 19, 200) 0px -3px 0px inset;
+
+}
+.fim .card:hover{
+    box-shadow: rgba(255, 255, 255, 0.61) 0px 2px 7px, rgba(36, 0, 166, 0.637) 0px 2px 7px, rgba(161, 19, 200, 0.918) 0px 2px 7px inset;
+
+}
+#on-of{
+    margin: 0;
+    color: #32004f;
+    text-align: center;
+    padding: 0 30%;
+    }
+#emocao{
+    width: 80px;
+    display: none;
+}
+
+   .wrapper {
+    width: 60px;
+    height: 40px;
+    position: relative;
+    z-index: 1;
+    display: none; 
+    
+  }
+  /*as 3 bolinhas subindo e descendo*/
+  .circle {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(118, 0, 197);
+    left: 15%;
+    margin: 0;
+    transform-origin: 50%;
+    animation: circle7124 .5s alternate infinite ease;
+  }
+  
+  @keyframes circle7124 {
+    0% {
+      top: 20px;
+      height: 5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+  
+    40% {
+      height: 20px;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+  
+    100% {
+      top: 0%;
+    }
+  }
+  
+  .circle:nth-child(2) {
+    left: 45%;
+    animation-delay: .2s;
+  }
+  
+  .circle:nth-child(3) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+  
+  .menssagem {
+    color: rgba(93, 0, 157, 0.65);
+    border: 1.5px solid rgba(255, 97, 193, 0.56);
+
+   
+    background-color: #8146ff21;
+    width: 290px;
+    max-width: 264px;
+    height: 25px;
+    padding: 12px;
+    border-radius: 10px;
+       outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    position: absolute;
+    top: 305px;
+    left: 6px;
+    
+  }
+  .menssagem:hover{
+    color: rgba(50, 1, 83, 0.65);
+    border: 1.5px solid rgba(250, 55, 172, 0.56); 
+    background-color: #5a3aa021;
+   
+  }
+  .m1{
+    display: none;
+    color: rgba(0, 0, 0, 0.651);
+    background-color: #8146ff8c;
+    width: 290px;
+    max-width: 264px;
+    height: 25px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(184, 184, 184, 0.63);
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+
+    float:left;
+     
+  }
+ .triangulo{ 
+    width: 1px;
+    height: 1px;
+   
+    border-top: none;
+    border: solid 10px #fff0;
+    border-bottom: solid 10px #8146ff8c;
+    margin: 0;
+    position: relative;
+    left: -56px;
+    top: 20px;
+
+    display: none;
+   
+}
+
+footer{
+   
+    padding: 15px;
+    display: flex;
+    background-color: #3c007438;
+    justify-content: space-around; 
+    align-self: center;
+}
+#termos ,#sobre ,#menu{
+   padding: 20px ;
+   margin: 30px ;
+   
+}
+#sobre{
+text-align: right;
+}
+footer h6{
+    width: 35%;
+   
+}
+button{
+    border: solid 2px #bc09e0;
+}
+button:hover{
+    transition-duration: 0.5s;
+    background-color: #18002b;
+    color: #540085;
+    cursor: pointer;
+}
+
+/* animacao de escrever */
+.anima2x{
+    font-size: 1.2em;
+    display: inline-block;
+    border-right: 2px solid #000;
+    padding-right:3px ;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal infinite 2s steps(55) both;
+}
+.anima{
+    
+
+    font-size: 1.2em;
+    display: inline-block;
+    border-right: 2px solid #000;
+    padding-right:3px ;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal 9s steps(55) both;
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }
+}
