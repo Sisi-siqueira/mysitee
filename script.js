@@ -160,5 +160,5 @@ if(umStart=='ok'){
       panda.src='img/happy.gif';
       
 
-};
+}
 console.log(umStart);
