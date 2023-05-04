@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300&family=Poppins:wght@200;500;800&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
-}
+    font-family: 'Poppins', sans-serif;}
 
 hr{
     color: #8434cf;
@@ -451,3 +448,4 @@ button:hover{
         max-width: 100%;
     }
 }
+
